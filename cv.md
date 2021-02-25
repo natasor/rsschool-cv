@@ -20,6 +20,7 @@ console.log ('It's all that I can do');
 
 `Education:` 2003 - 2006
 Omutninsk Pedagogy, Economics and Law Colleage
+
 Сomputer maintenance technician
 
 `Languges:`
