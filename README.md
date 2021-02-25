@@ -1,2 +1,2 @@
 # rsschool-cv
-https://natasor.github.io/rsschool-cv/cvg
+https://natasor.github.io/rsschool-cv/cv
