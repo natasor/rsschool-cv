@@ -59,7 +59,7 @@ h1, h3 {
 }
 .section-right {
     width: 854px;
-    background-color: green;
+    background-color: #ffffff;
     height: 800px;
     display: flex;
     flex-direction: column;
@@ -73,7 +73,7 @@ h1, h3 {
     }
 h2 {
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 .for-address {
     background-color: #E3E3E3;
@@ -117,5 +117,5 @@ li {
     justify-content:flex-start;
     flex-wrap: nowrap;
     width: 854px;
-
+    background-color: #ffffff;
 }
