@@ -3,57 +3,119 @@
     width: 1152px;
     margin: auto;
     border: 1px solid #000000;
+    font: italic 18px Arial;
+
  }
  header {
      display: flex;
      flex-direction: row;
     justify-content:flex-start;
      flex-wrap: nowrap;
-     border: 1px solid black;
+
  }
  .foto {
      width: 278px;
      height: 220px;
      padding: 10px;
      margin: 0px;
-     border: 1px solid black;
+
+    }
+ .img {
+     width: 80%;
+     margin: auto;
+     display: block;
  }
+
 
 .for-header {
     background-color: #E3E3E3;
     width: 854px;
     height: 240px;
 
-    border: 1px solid black;
 }
-h1 {
+h1, h3 {
     text-align: center;
     padding-bottom: 25px;
 
 }
-.section-left {
-    width: 298px;
-    border: 1px solid black;
-    background-color: #845959;
-    height: 1390px;
+.main-section {
+    width: 1152px;
+    background-color:greenyellow;
+    height: 800px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content:flex-start;
     flex-wrap: nowrap;
+   }
+.section-left {
+    width: 298px;
+    background-color: #E3E3E3;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+.section-right {
+    width: 854px;
+    background-color: green;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-content: center;
+
 }
 .text-header {
-    font: italic 14px Arial;
     text-align: right;
     }
 h2 {
     text-align: center;
+    padding-bottom: 10px;
 }
 .for-address {
     background-color: #E3E3E3;
-    width: 298px;
-    height: 694px;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    border: 1px solid black;
+    max-width: 298px;
+    height: 300px;
+
+    margin-bottom: 0px;
+
+}
+li {
+    padding: 20px;
+
+}
+.text {
+    text-align: center;
+;
+}
+.for-education {
+    background-color: white;
+    max-width: 298px;
+    height: 500px;
+
+}
+.for-article {
+    background-color: white;
+    width: 670px;
+    height: 200px;
+    margin: 0px 0px 20px;
+}
+.for-aside {
+    background-color: #E3E3E3;
+    width: 184px;
+    max-height: 200px;
+    font-size: 12px;
+
+
+}
+.flex-article {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    flex-wrap: nowrap;
+    width: 854px;
+
 }
